@@ -17,6 +17,7 @@
 }
 .fieldSetSeparator {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .fieldSetSeparator input {
@@ -24,6 +25,17 @@
 }
 .fieldSetSeparator input + input {
   margin-left: 15px;
+}
+
+@media (max-width: 330px) {
+  .fieldSetSeparator input + input {
+    margin: 0;
+  }
+}
+@media (max-width: 440px) {
+  .fieldSetSeparator input:nth-child(3) {
+    margin: 0;
+  }
 }
 .cardForm label {
   font-size: 12px;
