@@ -1,6 +1,7 @@
 import React from 'react';
 import imgCartao from '../../Assets/cartao.png';
 import imgMaster from '../../Assets/master.png';
+import CardForm from '../CardForm/CardForm';
 import Titulo from '../Titulo/Titulo';
 import styles from './CardSection.module.css'
 
@@ -8,6 +9,7 @@ import styles from './CardSection.module.css'
 const CardSection = () => {
     return (
         <div className={styles.card}>
+            
             <Titulo texto="Card Type"/>
 
             <header className={styles.cardHeader}>
@@ -19,23 +21,7 @@ const CardSection = () => {
                 <img alt="bandeira cartão" className={styles.cardBanner}style={{maxWidth:"150px", margin:"0 auto 0 0"}}src={imgMaster} />
             </section>
 
-            <form className={styles.cardForm}>
-
-                <fieldset>
-                    <label htmlFor="">Name on card</label>
-                    <input type="text" placeholder="Giga Tamarashvili"/>
-                </fieldset>
-                <fieldset>
-                    <label htmlFor="">Card Number</label>
-                    <input type="password" placeholder="****   ****   ****   ****"/>
-                </fieldset>
-
-                <button className={styles.cardBtn}>
-                    Check Out
-                </button>
-            </form>
-
-
+            <CardForm />
         </div>
 
     )
