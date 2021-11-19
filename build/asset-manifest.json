@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbd3a677.chunk.css",
+    "main.js": "/static/js/main.0c863305.chunk.js",
+    "main.js.map": "/static/js/main.0c863305.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.041593c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.041593c3.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.15640501.chunk.js": "/static/js/2.15640501.chunk.js",
+    "static/js/2.15640501.chunk.js.map": "/static/js/2.15640501.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.bbd3a677.chunk.css.map": "/static/css/main.bbd3a677.chunk.css.map",
+    "static/js/2.15640501.chunk.js.LICENSE.txt": "/static/js/2.15640501.chunk.js.LICENSE.txt",
+    "static/media/breakfast.7046e940.png": "/static/media/breakfast.7046e940.png",
+    "static/media/cartao.bc9af569.png": "/static/media/cartao.bc9af569.png",
+    "static/media/chicken.b707b37a.png": "/static/media/chicken.b707b37a.png",
+    "static/media/master.345ac0a2.png": "/static/media/master.345ac0a2.png",
+    "static/media/potatoes.0b5f7e48.png": "/static/media/potatoes.0b5f7e48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.041593c3.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.15640501.chunk.js",
+    "static/css/main.bbd3a677.chunk.css",
+    "static/js/main.0c863305.chunk.js"
+  ]
+}
