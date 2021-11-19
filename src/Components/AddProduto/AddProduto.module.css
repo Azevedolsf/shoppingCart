@@ -1,0 +1,26 @@
+.addProduto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
+.addProduto .btnProduto {
+  cursor: pointer;
+}
+
+.addProduto .quantidade {
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.addProduto img {
+  width: 10px;
+  height: 10px;
+}
+
+.valorProduto {
+  width: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
