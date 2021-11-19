@@ -15,6 +15,16 @@
   flex-direction: column;
   margin-bottom: 40px;
 }
+.fieldSetSeparator {
+  display: flex;
+  justify-content: space-between;
+}
+.fieldSetSeparator input {
+  max-width: 100px;
+}
+.fieldSetSeparator input + input {
+  margin-left: 15px;
+}
 .cardForm label {
   font-size: 12px;
   color: #76777e;
