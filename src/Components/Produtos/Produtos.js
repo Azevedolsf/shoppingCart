@@ -60,11 +60,11 @@ const Produtos = () => {
 			</ul>
 			<div className={styles.produtosFooter}>
 				<span><img src={arrow} alt="voltar" /> Continue Comprando</span>
-				<p className={styles.subtotal}>
+				<div className={styles.subtotal}>
 					<span>Subtotal:</span>
 		
 					<span className={styles.subtotalValor}>${subtotal.toFixed(2)}</span>
-				</p>
+				</div>
 			</div>
 		</div>
 	)

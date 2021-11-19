@@ -28,11 +28,11 @@
 }
 .subtotal span {
   color: #d3d3d3;
-  font-size: 14px;
+  font-size: 18px;
   margin-right: 10px;
 }
 .subtotal .subtotalValor {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   color: #393939;
 }
